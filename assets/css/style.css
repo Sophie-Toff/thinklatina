@@ -1,0 +1,47 @@
+body{
+    background-color: #b5d9fc;
+    font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.container{
+    margin: 5vh 5vw 0 5vw; 
+}
+.header-main{
+    text-align: center;
+}
+.navbar-main{
+    text-align: center; /* this makes items in navbar in the center */
+}
+.navbar-item{
+    color: #2543bb;
+    background-color: aqua; /* putting background-color here instead of ^ creates box effect as each item has own colour */
+    list-style-type: none;
+    display: inline-block; /* this is how you make navbar items horizontal not vertical */
+    width: 10vw; /* is the actual size of the box */
+    margin:3vw; /* pads out box items and is the space in between the boxes */
+}
+.navbar-item:hover{
+    font-weight: 700;
+    font-size: 1.05em;
+}
+/* when actively clicking and holding down on an item */
+.navbar-item:active{
+    color:#25bb52; /* refers to font color */
+    font-size: 1.1em;
+}
+form{
+    background-color: #78b7d2;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding-left: 5vw; 
+}
+.make-me-higher{
+    height:15px;
+}
+.submit-button{
+    /* moves button right by pushing it and creating a 70% block to its left */
+    /* note : 70% of FORM width NOT PAGE width */
+    margin-left: 70%;
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}

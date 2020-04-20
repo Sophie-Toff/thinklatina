@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    padding-top: 5vmin;
+}
+body{
+    background-color: #ffe3d2;
+    font-family: Arial,'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+}
+.form1{
+    padding: 3.5vw;
+    background-color: rgb(255, 147, 6);
+    border-style: dotted;
+    border-color: rgb(238, 70, 8);
+    align-content: space-around;
+    margin-bottom: 10vmin;
+}
+.submit-button{
+    background-color: rgb(252, 94, 59);
+    border-radius: 30px;
+    margin-top: 2vmin;
+    height: 6vh;
+    width: 12vw;
+}
+.submit-button:hover{
+    box-shadow: 0 12px 16px 0;
+    height: 10vh;
+    width: 20vw;
+}
+.submit-button:active{
+    font-size: 1.1em;
+    font-weight: 700;
+}
+
+.name{
+    margin-left: 3vmin;
+    border-radius: 15px;
+    margin-top: 2vmin;
+}
+.email{
+    margin-left: 3vmin;
+    margin-top: 2vmin;
+    border-radius: 15px;
+}
+.phone{
+    margin-left: 3vmin;
+    margin-top: 2vmin;
+    border-radius: 15px;
+    margin-bottom: 2vmin;
+}
+.month{
+    border-radius: 15px;
+    margin-top: 2vmin;
+    margin-left: 3vmin;
+}
+#argentina{
+    margin-top: 2vmin;
+}
+.checkbox{
+    margin-top: 2vmin;
+}
+.carousel-images{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 4em;
+}

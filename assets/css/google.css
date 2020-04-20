@@ -1,0 +1,29 @@
+body{
+    font-family: "Geneva", Verdana, Tahoma, sans-serif;
+}
+.navbar-main{
+    text-align: right;
+    margin-right: 3vw;
+}
+.navbar-item{
+    list-style-type: none;
+    display: inline-block;
+    width: 5vw;
+    margin: 0.5vw;
+}
+img{
+    margin-left: 34vw;
+    margin-top: 12vh;
+}
+input{
+    margin-left: 34vw;
+    width: 20%;
+    border-radius: 30px;
+    height: 30px;
+    width: 400px;
+    margin-top: 2%;
+}
+.buttons{
+    text-align: center;
+    margin-top: 3%;
+}
