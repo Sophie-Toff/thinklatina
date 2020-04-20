@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+        div.box{
+            background-color: rgb(255, 255, 255);
+            border:1px solid black;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.3em;
+        }
+        div.fixed{
+            width:100px;
+        }
+        body{
+            background-color: #ffe3d2;
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+        .main{
+            margin-top:5vh;
+        }
+        .business{
+          background-color: coral;
+        }
+        .marketing{
+          background-color: rgb(249, 160, 128);
+        }
+        .coding{
+          background-color: rgb(245, 203, 187);
+        }
+        .english{
+          background-color: rgb(249, 224, 215);
+        }
+        .container{
+          padding-bottom: 4vh;
+        }
+        .course-image{
+          margin-left: 2em;
+          margin-bottom: 1em;
+          border-radius: 15px;
+        }
+        h5{
+          margin-left: 2em;
+        }
+        p{
+          margin-right: 2em;
+        }
+        .button {
+        display: inline-block;
+        border-radius: 10px;
+        background-color: #ffffff;
+        border: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: 20px;
+        padding: 10px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+        }
+
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        }
+
+      .button:hover span {
+        padding-right: 25px;
+        }
+
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+        }
+
+    </style>
+    <title>Our Courses</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-light" style="background-color: rgb(255, 255, 255);">
+      <a href="#">
+        <img class="logo" src="assets/images/Think Latina.png" height="80px" />
+      </a>
+        <a class="navbar-brand" href="websitehome.html">Think Latina</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="websitehome.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="websiteaboutus.html">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="websitecourses.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Our Courses
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="websitecourses.html">Business Management</a>
+                <a class="dropdown-item" href="websitecourses.html">Marketing</a>
+                <a class="dropdown-item" href="websitecourses.html">Coding</a>
+                <a class="dropdown-item" href="websitecourses.html">English Language</a>
+            </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="websiteform.html">Contact Us</a>
+                </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    
+    <div class="container">
+        <h1>Our Courses</h1>
+        <h3>We offer some incredible courses to advance your career </h3>
+    </br>
+
+        <div class="business">
+          <h5>Business Management</h5>
+            <div class="row">
+              <div class="col">
+                <img class="course-image" src="https://www.bolc.co.uk/images/blog/Business%20Management1951479897376.jpg" width="380" height="200" />
+              </div>
+              <div class="col">
+                <p>Have you ever felt that you lack the skills to lead your team? You never lacked the skills, just the confidence to implement them! Our Business Management course will give you the boost you need to enhance these skills and become a boss in your office!</p>
+              </br>
+              <button class="button" style="vertical-align:middle"><span>Find out more </span></button>
+              </div>
+            </div>
+        </div>
+      </br>             
+        <div class="marketing"> 
+          <h5>Marketing</h5>
+            <div class="row">
+                <div class="col">
+                    <img class="course-image" src="http://www.anythingprint.co.uk/images/marketing-image.jpg" width="380" height="200" />
+                </div>
+                <div class="col">
+                    <p>Our courses in Digital Marketing will provide you with all the knowledge you need to be able to create top campaigns that are sure to capture attention. You will learn key digital marketing skills to excel in the modern workplace.</p>
+                    </br>
+                    <button class="button" style="vertical-align:middle"><span>Find out more </span></button>
+                </div>
+            </div>
+        </div>
+      </br>
+        <div class="coding">
+          <h5>Coding</h5>
+            <div class="row">
+              <div class="col">
+                <img class="course-image" src="https://www.womenonbusiness.com/wp-content/uploads/2019/08/woman-coding.png" width="380" height="200" />
+              </div>
+              <div class="col">
+                <p>We offer coding courses from beginners level through to advanced. Whether you are working in tech or you want to add a skill to you repertoire, this course is sure to give you an advantage in the workplace!</p>
+              </br>
+              <button class="button" style="vertical-align:middle"><span>Find out more </span></button>
+              </div>
+            </div>
+        </div>
+      </br>
+
+        <div class="english">
+          <h5>English Language</h5>
+            <div class="row">
+              <div class="col">
+                <img class="course-image" src="https://www.proprofs.com/quiz-school/topic_images/p1a9ertiu8a2e8htrqc1qk0a0c3.jpg" width="380" height="200" />
+              </div>
+              <div class="col">
+                <p>Is your English holding you back? In today's market, it is extremely important to come across well and clearly communicate your message. Our English language course will have you business proficient in no time and ready to work with people across the globe.</p>
+              </br>
+              <button class="button" style="vertical-align:middle"><span>Find out more </span></button>
+              </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+      <nav class="navbar navbar-light" style="background-color: rgb(255, 255, 255)">
+            <a href="#">
+                <img src="assets/images/Think Latina.png" height="80px" />
+            </a>
+                  <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Work With Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Privacy Policy</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Cookie Policy</a>
+                    </li>
+                  </ul>
+        </nav>
+      </footer>
+    
+        
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

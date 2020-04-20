@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/websiteformstyle.css" />
+    <title>Contact Us</title>
+</head>
+<body>
+  <nav class="navbar navbar-light" style="background-color: rgb(255, 255, 255);">
+    <a href="#">
+      <img class="logo" src="assets/images/Think Latina.png" height="80px" />
+    </a>
+      <a class="navbar-brand" href="websitehome.html">Think Latina</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="websitehome.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="websiteaboutus.html">About Us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="websitecourses.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Our Courses
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="websitecourses.html">Business Management</a>
+              <a class="dropdown-item" href="websitecourses.html">Marketing</a>
+              <a class="dropdown-item" href="websitecourses.html">Coding</a>
+              <a class="dropdown-item" href="websitecourses.html">English Language</a>
+          </li>
+              <li class="nav-item">
+                <a class="nav-link" href="websiteform.html">Contact Us</a>
+              </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+  </nav>
+
+    <h1>Get in touch with us!</h1>
+    
+</br>
+<div class="container">
+    <h3><i>Just fill out this form</i></h3>
+    <form class="form1">
+        Name
+        <input class="name" type="text" />
+        <br />
+        Email
+        <input class="email" type="email" />
+        <br />
+        Telephone number
+        <input class="phone" type="tel" />
+        <br />
+        Location <br>
+        <input type="radio" id="argentina" name="location" value="argentina" /> 
+        <label for="argentina">Argentina</label><br>
+        <input type="radio" id="chile" name="location" value="chile" /> 
+        <label for="chile">Chile</label><br>
+        <input type="radio" id="colombia" name="location" value="colombia" /> 
+        <label for="colombia">Colombia</label><br>
+        Currently employed? 
+        <input class="checkbox" type="checkbox" />
+        <br />
+        During which month would you like to participate in a course? 
+        <input class="month" type="month" />
+        <br />
+        <input class="submit-button" type="submit" value="Submit"></input>
+    </form>
+    <div class = "carousel-images">
+        <img class="mySlides" src="https://media.gettyimages.com/videos/women-around-the-world-smiling-video-id1051263250?s=640x640" width="360" height="340">
+        <img class="mySlides" src="https://www.edgehill.ac.uk/news/files/2019/02/coding-image.jpg"width="360" height="340">
+        <img class="mySlides" src="https://cdn2.hubspot.net/hubfs/3873528/Women%20in%20Tech%20by%20Country.png"width="360" height="340">
+        <img class="mySlides" src="https://media.dods.co.uk/sites/media.dods.co.uk/files/image/Untitled%20design%20%2879%29_0.png"width="360" height="340">
+    </div>
+    
+</div>  
+
+<footer>
+  <nav class="navbar navbar-light" style="background-color: rgb(255,255,255)">
+        <a href="#">
+            <img src="assets/images/Think Latina.png" height="80px" />
+        </a>
+              <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Work With Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Cookie Policy</a>
+                </li>
+              </ul>
+    </nav>
+  </footer>
+
+  <script>
+    var slideIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      console.log("x.length = " + x.length);
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > x.length) {slideIndex = 1}
+      x[slideIndex-1].style.display = "block";
+      setTimeout(carousel, 2000);
+    }
+  </script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
